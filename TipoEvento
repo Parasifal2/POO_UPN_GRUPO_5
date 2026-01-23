@@ -1,0 +1,8 @@
+public enum TipoEvento{
+    CREACION,
+    ASIGNACION,
+    PROGRAMACION,
+    REAGENDAMIENTO,
+    CANCELACION,
+    CIERRE
+}
