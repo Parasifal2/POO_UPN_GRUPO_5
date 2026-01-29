@@ -6,5 +6,10 @@ public class Tecnico extends Persona{
         this.especialidad = especialidad;
     }
 
-    //TODO:
+    public String getEspecialidad() {return especialidad; }
+    public void setEspecialidad(String especialidad) {this.especialidad = especialidad; }
+
+    @Overridepublic String toString(){
+        return "Tecnico{id=" + getId() + ", nombre= " + getNombre() + ", esp = " + especialidad + "}";
+    }
 }
